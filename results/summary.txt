@@ -1,0 +1,25 @@
+PHYS 421 Assignment 2 - Results Summary
+==================================================
+
+1. ACCURACY ANALYSIS:
+--------------------
+Best accuracy (largest N=6,400,000): 6.27e-04 (0.0627%)
+Error scaling follows ~1/sqrt(N) trend: 7 data points
+
+2. PARALLEL PERFORMANCE:
+-------------------------
+Maximum threads tested: 4
+Best speedup: 2.28x
+Efficiency at 4 threads: 0.18 (17.9%)
+
+3. VALIDATION RESULTS:
+----------------------
+Average relative error across n=2-10: 1.87e-03 (0.1874%)
+Maximum relative error: 5.52e-03 (0.5519%)
+All estimates within acceptable bounds
+
+4. RUNTIME ANALYSIS:
+--------------------
+Serial runtime (N=5M): 2.08 seconds
+Parallel runtime (4 threads): 2.90 seconds
+Time improvement: 0.72x faster
